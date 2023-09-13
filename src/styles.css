@@ -1,0 +1,33 @@
+* {
+  background-color: brown;
+}
+
+h1 {
+  text-align: center;
+}
+.tvShowProfiles{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+h2 {
+  color:blue;
+}
+
+h3 {
+  color: red;
+  position: relative;
+  left: 20px;
+}
+
+
+img {
+  height: 250px;
+  width: 300px;
+  margin: 15px;
+  padding: 0px;
+  align-self: center;
+  border: 2px black solid;
+}
+
