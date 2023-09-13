@@ -19,7 +19,11 @@ export class tvShow{
         this.comments.push(`\n ${comment}`);
     }
     removeComment(commentToRemove){
+        if (commentToRemove === this.comments[0]){
         this.comments = this.comments.filter((comment) => comment !== commentToRemove);
+    } else {
+        this.comments = this.comments.filter((comment) => comment !== `\n ${commentToRemove}`);
+    }
     }
     changeRating(newRating){
         this.rating = newRating;
@@ -40,6 +44,7 @@ export class tvShow{
 const searchPartyProfile = new tvShow("Search Party", 8.5, "images/searchPartyImg.jpg");
 searchPartyProfile.addComment("one of my all time faves!");
 searchPartyProfile.removeComment("one of my all time faves!");
+searchPartyProfile.changeRating(10);
 
 //Bojack Horseman
 
