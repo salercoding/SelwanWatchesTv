@@ -1,22 +1,26 @@
-* {
-  background-color: brown;
-}
-
 h1 {
   text-align: center;
+  color: whitesmoke;
+  font: bold 60px 'Times New Roman', Times, serif;
+  margin: 50px 30px 5px;
 }
 .tvShowProfiles{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  background-color: rgba(209, 209, 224, 0.3);
+  margin: 50px;
 }
 
 h2 {
-  color:blue;
+  color:whitesmoke;
+  font: italic 30px 'Times New Roman', Times, serif;
+  position: relative;
+  text-align: center;
 }
 
 h3 {
-  color: red;
+ color: whitesmoke;
   position: relative;
   left: 20px;
 }

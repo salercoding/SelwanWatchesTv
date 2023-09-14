@@ -34,7 +34,7 @@ export class tvShow{
                 <h3>{this.name}</h3>
                 <img src={this.image}/>
                 <h4>My rating for {this.name} is {this.rating}</h4>
-                <h5>{this.comments}</h5>
+                <p>{this.comments}</p>
             </div>
         );
     }
@@ -53,6 +53,7 @@ const bojackHorsemanProfile = new tvShow("Bojack Horseman", 9);
 bojackHorsemanProfile.addImage("images/bojackHorsemanImg.png");
 
 bojackHorsemanProfile.addComment("yes it is depressing but it is also very silly.");
+
 
 //Desperate Housewives
 
